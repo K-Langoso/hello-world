@@ -1,2 +1,2 @@
-# hello-worl
+# hello-world
 Repositório do Tutorial do GitHub
