@@ -17,7 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9E-ej-I3B">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEN-7X-AGt">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mEN-7X-AGt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DUo-Hm-prx"/>
+                            <constraint firstItem="B9E-ej-I3B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KvC-bP-Qog"/>
+                            <constraint firstItem="B9E-ej-I3B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oAx-2R-3gO"/>
+                            <constraint firstItem="B9E-ej-I3B" firstAttribute="top" secondItem="mEN-7X-AGt" secondAttribute="bottom" constant="27" id="tRu-l9-xBc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
